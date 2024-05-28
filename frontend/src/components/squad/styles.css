@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .positionSpace {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid;
+  }
+  .playerpoolcandidate {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid;
+    margin: 10px;
+  }
+  .formationSelector {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formationSection {
+    text-align: center;
+    display: flex;
+    height: 60%;
+    width: auto;
+  }
+
+  .formation-select {
+    background-image: url(../../images/pitch.png);
+    background-size: cover;
+    width: 900px;
+    height: 900px;
+    padding: 30px;
+  }
